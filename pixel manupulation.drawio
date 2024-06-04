@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-06-04T08:25:21.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rOg2rQgbI-wU7XyfYO0z" version="24.4.13" type="device">
+  <diagram name="Page-1" id="3OIVXL_a3F_Ihq2Xz5nI">
+    <mxGraphModel dx="1900" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="61" width="50" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Initialize" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="47" y="83" width="78" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Load Image" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="38" y="167" width="97" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Encrypt Pixels" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="29" y="250" width="115" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Manipulate Pixels" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="16" y="334" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Save Encrypted Image" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry y="417" width="173" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="End" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="66" y="500" width="41" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5051875305175781;exitY=1.0121212583599668;entryX=0.5033253400753706;entryY=0.012121258359966856;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5033253400753706;exitY=1.0242425167199336;entryX=0.49751934562761757;entryY=-0.006060513583096591;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49751934562761757;exitY=1.0060607447768704;entryX=0.4979076219641644;entryY=0.006060744776870265;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4979076219641644;exitY=1.0181820031368372;entryX=0.5018526894705636;entryY=-0.012121027166193182;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5018526894705636;exitY=1.0000002311937737;entryX=0.49860911286635207;entryY=2.3119377367424243e-7;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49860911286635207;exitY=1.0121214895537405;entryX=0.4941311347775343;entryY=0.01212148955374053;" parent="1" source="7" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
